@@ -1,0 +1,20 @@
+{
+    "name": "kevinfrom/log-data-changes",
+    "description": "Log data changes in your CakePHP models",
+    "type": "cakephp-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin From",
+            "email": "kevinfrom@live.dk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LogDataChanges\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4"
+    }
+}
